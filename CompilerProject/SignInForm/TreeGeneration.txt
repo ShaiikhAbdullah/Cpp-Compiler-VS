@@ -1,0 +1,8 @@
++- Operator (Root): MINUS
+    +- Operator (LeftChild): PLUS
+        +- Constant (LeftChild): 2
+        +- Constant (RightChild): 3
+    |    |    +- Operator (RightChild): DIVIDE
+        +- Constant (LeftChild): 1
+        +- Constant (RightChild): 4
+    |    |||

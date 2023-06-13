@@ -1,0 +1,4 @@
++- Operator (Root): PLUS
+    +- Constant (LeftChild): 2
+    +- Constant (RightChild): 3
+||+- Constant (Root): 3
