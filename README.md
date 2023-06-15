@@ -46,3 +46,15 @@ The expression evaluation component involves traversing the AST in a recursive m
 ### Semantic Analyzer: 
 #### Tree Generation & Evaluation of Expression: 
 ![image](https://github.com/ShaiikhAbdullah/Cpp-Compiler-VS/assets/93272893/0ffbe43d-6512-4c02-b346-decf5ba59f41)
+
+In conclusion, this project aimed to develop a graphical user interface (GUI) component for interacting with compiler components. Although the specific implementation details of the GUI were not provided in the header file codes, we have discussed the general concepts and code logic involved in building a GUI that interacts with the underlying compiler components.
+
+The GUI serves as the front-end of the application, providing a visual representation of the user interface. It allows users to input code, configure compiler settings, and execute various compiler operations. The GUI captures user events and triggers corresponding event handlers, which process the input, validate it if necessary, and pass the data to the compiler components.
+
+The interaction between the GUI and the compiler components follows a typical flow. The GUI calls functions from the compiler components, passing relevant data as arguments. The compiler components perform the necessary operations, such as compiling code, executing commands, or processing input. The results or status information are then returned to the GUI, which updates the user interface accordingly, displaying the output or any error messages.
+
+Throughout the project, considerations were given to user input handling, including validation and error handling, as well as displaying results in a user-friendly manner. The GUI component also acted as an intermediary between the user and the back-end functionality, translating user actions into commands or function calls that interacted with the compiler components.
+
+It is important to note that the implementation details of the GUI component and its integration with the compiler components may vary depending on the programming language, GUI framework, and specific project requirements. The provided header file codes served as a starting point, but a complete understanding of the GUI implementation would require further examination and analysis.
+
+In summary, the development of a GUI component for interacting with compiler components is a complex task that involves capturing user input, processing it, and integrating with the back-end functionality. By creating an intuitive and efficient user interface, this project aimed to enhance the user experience when working with compilers and facilitate the execution of compiler operations.
