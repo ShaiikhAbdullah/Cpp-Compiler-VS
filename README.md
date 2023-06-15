@@ -17,7 +17,7 @@ QA: Quality Assurance
 ###Design
 Here’s a comprehensive overview of the design choices, architecture, and components of our compiler project. Here are some key points to cover:
 
-###Overall Architecture:
+### Overall Architecture: 
 We have adopted a layered architecture, with separate layers for the graphical user interface (GUI), front-end components (lexical analysis, syntax analysis), and back-end components (AST generation, expression evaluation). The layers communicate with each other through well-defined interfaces, promoting separation of concerns and modular design.
 
 ###Lexical Analysis Design:
